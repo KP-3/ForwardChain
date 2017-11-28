@@ -54,7 +54,7 @@ makegraph();
 		System.out.println(gv.getDotSource());
 		String type = "png";
 		File out = new File("forward." + type); // out.gif in this example
-		gv.writeGraphToFile(gv.getGraph(gv.getDotSource(), type), out);
+		//gv.writeGraphToFile(gv.getGraph(gv.getDotSource(), type), out);
 	}
 public static ArrayList<String> question(String fileName,String rule,String que,String memo){
 	rb = new RuleBase(rule);
