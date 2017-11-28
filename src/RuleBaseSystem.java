@@ -105,10 +105,7 @@ public static ArrayList<String> question(String fileName,String rule,String que,
 			// System.out.println(Unify.ansList.size());
 			
 			if (Unify.ansList.size() != 0) {
-				if (Unify.keyset.substring(1, Unify.keyset.length() - 1)
-						.equals("")) {
-					System.out.println("Yes");
-				} else {
+
 					String[] one = Unify.ansList.toString().split("");
 				  	boolean front =false;
 				  	String ans1="";
@@ -140,7 +137,7 @@ public static ArrayList<String> question(String fileName,String rule,String que,
 				  		}
 				  	}
 
-				}
+				
 			} else {
 				ans.add("みつかりませんでした");
 			}
