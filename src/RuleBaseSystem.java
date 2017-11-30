@@ -93,7 +93,7 @@ public static ArrayList<String> question(String fileName,String rule,String que,
 	rb.forwardChain();
 	try {		
 		File file = new File(memo);
-
+		file.createNewFile();
 		if (checkBeforeWritefile(file)) {
 			PrintWriter pw = new PrintWriter(new BufferedWriter(
 					new FileWriter(file)));
