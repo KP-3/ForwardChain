@@ -134,11 +134,3 @@ rule   "Z26"
 if     "?x is a Akatonbo"
        "?x has red-wings"
 then   "?x is a Sympetrum-pedemontanum-elatum"
-
-rule   "Z"
-if     ""
-       ""
-then   ""
-
-
-
